@@ -1,0 +1,26 @@
+This project is to develop a web application to get information about music artists, their albums, etc. 
+This application is developed using plain JavaScript and Ajax. 
+
+This application has a text window where one can type the artist name (eg, The Beatles). 
+It should display:
+1. the artist name, 
+2. a link to the Last.fm web page of the artist, 
+3. information about the artist (including a long biography), 
+4. their picture (large), 
+5. a list of their top albums (titles & pictures), 
+6. and a list of names of similar artists. 
+
+following Last.fm methods are used:
+
+Get the metadata for an artist, including biography
+Get the top albums for an artist
+Get all the artists similar to this artist
+
+You are going to use the Web Service REST API of the music application https://www.last.fm/.
+You first need to get an API access key from Get an API Account at https://secure.last.fm/login?next=/api/account/create  . 
+The access key will allow you to send web service requests to Last.fm (maximum 1 request per second).
+
+After you get the API key, you put it in music.js and you test your setup on your web browser by using the URL address:
+http://localhost/project2/music.html
+and by typing the name of your favorite singer/band. 
+
