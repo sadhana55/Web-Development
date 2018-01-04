@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Student Name:   -->
+<html lang="en">
+  <head>
+    <title>A Music Web Application</title>
+	<h1>A Music Web Application </h1>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="music.js"></script>
+    
+    
+<style>
+    
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+h2 {
+    color: purple;
+    text-align: center;
+}
+h3 {
+    color: brown;
+    
+}
+h4 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+a:link {
+    color: darkblue; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+img {
+    display: block;
+    margin: auto;
+    
+}
+</style>
+</head>  
+  
+  <body onload="initialize();">
+    <form>
+       <label>Artist name: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+    <div id="output">&nbsp;</div>
+    <div id="output1">&nbsp;</div>
+    <div id="output2">&nbsp;</div>
+
+  </body>
+
+
+
+
+</html>
