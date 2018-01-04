@@ -1,0 +1,19 @@
+The goal of this project is to learn XPath and XSLT to query XML data.
+
+Use SigmodRecord.xml and SigmodRecord.dtd (the DTD of the document). for answering the XPath Queries
+
+Print the titles of all articles whose one of the authors is David Maier.
+Print the titles of all articles whose first author is David Maier.
+Print the titles of all articles whose authors include David Maier and Stanley B. Zdonik.
+Print the titles of all articles in volume 19/number 2.
+Print the titles and the init/end pages of all articles in volume 19/number 2 whose authors include Jim Gray.
+Print the volume and number of all articles whose authors include David Maier. (note: we need the number entry of an article, not the number of articles).
+
+Consider the following XML document along with its DTD that describes recipes:
+recipes.xml
+recipes.dtd
+Write an XSLT program recipe.xsl to display the recipes nicely on a web browser. 
+The XSLT should generate HTML code. 
+You should display all data except the related elements. 
+
+Use the Java program xslt.java to test your XSLT and then load the resulting html output file on your web browser.
