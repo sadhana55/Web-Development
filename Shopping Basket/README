@@ -1,0 +1,16 @@
+Develop an e-commerce web application where customers can buy products listed by the eBay Commerce Network API for Shopping.
+
+Develop a trivial web application that allows customers to buy products 
+Use the shopping.com API for shopping. 
+The eBay Commerce Network API ("ECN API") - https://ebaycommercenetwork.force.com/publisher/s/categoryhome/P_API
+is a flexible way to access and recreate practically everything you see on Shopping.com. 
+You need to get your own API key or use a demo API key(https://ebaycommercenetwork.force.com/publisher/s/article/API-Demo). 
+
+You will use the Search by keyword method(https://ebaycommercenetwork.force.com/publisher/s/api-use-cases#1)
+and the Requesting category tree information -> Include all descendants in category tree 
+method from the eBay Commerce Network Publisher API Use Cases.
+
+Search form must have a menu to select a category, a text window to specify search keywords, and a submit button. 
+The menu must contain all sub-categories of the category "computers" . 
+
+You need to use a PHP session to store the shopping basket 
