@@ -1,0 +1,17 @@
+The goal of this project is to create a web mashup that combines two web services: Google Maps and the Zillow API, 
+using JavaScript and AJAX. When you click on a house on the map, your application will display the postal address 
+and the estimated price of the house.
+
+For this project, you will use the
+
+Real Estate API from the Zillow API (more specifically, GetSearchResults) https://www.zillow.com/howto/api/APIOverview.htm
+Geocoding and Reverse Geocoding - https://developers.google.com/maps/documentation/javascript/geocoding?csw=1 from the Google Maps JavaScript API
+Google Map Markers - https://developers.google.com/maps/documentation/javascript/markers
+
+To use Google Maps, you need to get an API key (you will need to login using your google account). 
+To use the Zillow API, you need to register and obtain a web service ID from Zillow Web Services ID (ZWSID). 
+After you get the twp API keys, you put them in map.html and map.js, you start your XAMPP web server, 
+and you test your setup on your web browser by using the URL address http://localhost/project3/map.html 
+and by typing the address of some existing house (example: 904 Austin St, Arlington, TX 76012). 
+
+It will display the estimated value of this house (empty if the address is invalid).
