@@ -1,0 +1,21 @@
+This Folder contains 8 Web Development Projects
+Below is high level description of each project
+
+Project 1 - A JavaScript Game - Ping Pong Game. This Game is developed using plain Javascript
+
+Project 2 - A Music Web Application - using Web Service REST API of music application Lasr.fm. 
+It is a web application to get information about music artists, their albums, etc. 
+This application is developed using plain JavaScript and Ajax.
+
+Project 3 - Web Mashup: Display House Prices on a Map - using Real Estate API, Zillow API and Google Maps API
+
+Project 4 - Develop a trivial web application that allows customers to buy products using PHP
+
+Project 5 - Create Login Page and Message Board to Post and save messages using PHP and SQL
+
+Project 6 - XPath queries and write XSLT to generate HTML code
+
+Project 7 - Write XQuery for the different queries
+
+Project 8 - Cloud Application - Dropbox using PHP
+
